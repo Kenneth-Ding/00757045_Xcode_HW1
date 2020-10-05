@@ -13,10 +13,12 @@ struct ContentView: View {
             Text("沒看過天才是不是")
                 .font(.system(size: 40))
                 .fontWeight(.black)
-                .position(x: 185, y: 330)
+                .position(x: 185, y: 290)
             Head()
+                .scaleEffect(1.2)
                 .offset(x: 6, y:330)
             limbs()
+                .scaleEffect(1.2)
                 .offset(x: 6, y:330)
         }
         .background(Image("bg")
